@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: linear-gradient(90deg, #aee8f7, #75cfdf);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 50vh;
+  width: 70vh;
+  position: relative;
+  top: -70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.screen {
+  background-color: #75cfdf;
+  min-height: 100%;
+  min-width: 100%;
+
+}
+.login-screen{
+    background-color: #ffffff;
+    padding: 45px;
+    height: 100%;
+
+}
+
+.login-screen h3{
+    padding: 10px;
+    font-size: 24px;
+    color: rgba(44, 44, 240, 0.692);
+
+}
+
+.user-field{
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 18px;
+
+}
+.user-label,.pass-label{
+    padding-bottom: 5px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.568);
+    font-weight: 100;
+}
+.login-user-input,.login-pass-input{
+  outline: none;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 43px;
+  width: 470px;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.pass-field{
+    padding: 10px;
+    
+}
+
+.pass-extension{
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.login-button-field{
+    padding: 10px;
+}
+.remember{
+
+}
+
+.remember-label{
+    margin-left: 30px;
+}
