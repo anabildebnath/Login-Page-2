@@ -1,65 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
 body {
-  background: linear-gradient(90deg, #aee8f7, #75cfdf);
+  background: linear-gradient(45deg,  rgba(66, 183, 245,0.8) 0%,rgba(66, 245, 189,0.4) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-
 }
-
 .container {
   background-color: #ffffff;
-  border-radius: 5px;
-  height: 50vh;
+  height: 53vh;
   width: 70vh;
   position: relative;
   top: -70px;
   display: flex;
   flex-direction: column;
+  border-radius: 9px;
 }
-
 .screen {
   background-color: #75cfdf;
   min-height: 100%;
   min-width: 100%;
-
+  border-radius: 9px;
 }
-.login-screen{
-    background-color: #ffffff;
-    padding: 45px;
-    height: 100%;
-
+.login-screen {
+  background-color: #ffffff;
+  padding: 45px;
+  height: 100%;
+  border-radius: 9px;
 }
-
-.login-screen h3{
-    padding: 10px;
-    font-size: 24px;
-    color: rgba(44, 44, 240, 0.692);
-
+.login-screen h3 {
+  padding: 10px;
+  font-size: 24px;
+  color: #4285F4;
 }
-
-.user-field{
-    padding: 10px;
-    margin-bottom: 5px;
-    margin-top: 18px;
-
+.user-field {
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-top: 18px;
 }
-.user-label,.pass-label{
-    padding-bottom: 5px;
-    font-size: 13px;
-    letter-spacing: 2px;
-    color: rgba(0, 0, 0, 0.568);
-    font-weight: 100;
+.user-label,
+.pass-label {
+  padding-bottom: 5px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.568);
+  font-weight: 100;
 }
-.login-user-input,.login-pass-input{
+.login-user-input,
+.login-pass-input {
   outline: none;
   border: none;
   background-color: rgba(0, 0, 0, 0.1);
@@ -68,25 +62,67 @@ body {
   border-radius: 5px;
   padding: 25px;
 }
-
-.pass-field{
-    padding: 10px;
-    
+.pass-field {
+  padding: 10px;
 }
-
-.pass-extension{
-    padding: 10px;
-    display: flex;
-    flex-direction: column-reverse;
+.pass-extension {
+  padding: 10px;
+  display: flex;
 }
-
-.login-button-field{
-    padding: 10px;
+.login-button-field {
+  padding: 10px;
+ 
 }
-.remember{
-
+.login-button{
+  width: 88.3%;
+  height: 100%;
+  min-height: 43px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  background: #4285F4;
 }
-
-.remember-label{
-    margin-left: 30px;
+.login-button-label{
+  color: white;
+  font-size: 14px;
+}
+.remeber-label {
+  position: relative;
+  font-size: 13px;
+  top: -17.5px;
+  left: 23px;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.568);
+}
+.forget-pass{
+  position: relative;
+  font-size: 12px;
+  top: -31px;
+  left: 363px;
+  letter-spacing: .5px;
+  font-weight: lighter;
+  color: #4285F4;
+}
+.link-div{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.left-link{
+  position: relative;
+  left: -495px;
+  top: 30px;
+  font-size:small;
+  color: #ffffff;
+}
+.left-link a,.right-link a{
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+.right-link{
+  position: relative;
+  left: 130px;
+  top: 30px;
+  font-size:small;
+  color: #ffffff;
 }
